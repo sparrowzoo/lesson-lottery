@@ -1,12 +1,12 @@
 #!/bin/bash
 # 修改APP_NAME为云效上的应用名
-APP_NAME=sparrow-lottery-exe
+APP_NAME=lesson-lottery-exe
 PROG_NAME=$0
 ACTION=$1
 APP_START_TIMEOUT=20    # 等待应用启动的时间
 APP_PORT=8080          # 应用端口
 HEALTH_CHECK_URL=http://127.0.0.1:${APP_PORT}/health  # 应用健康检查URL
-APP_HOME=/home/admin/app/sparrow-boot-demo # 从package.tgz中解压出来的jar包放到这个目录下
+APP_HOME=. # 从package.tgz中解压出来的jar包放到这个目录下
 JAR_NAME=${APP_HOME}/${APP_NAME}.jar # jar包的名字
 JAVA_OUT=${APP_HOME}/logs/start.log  #应用的启动日志
 
@@ -46,6 +46,7 @@ health_check() {
 }
 start_application() {
     echo "starting java process"
+    echo "nohup java -jar ${JAR_NAME} > ${JAVA_OUT} 2>&1 &"
     nohup java -jar ${JAR_NAME} > ${JAVA_OUT} 2>&1 &
     echo "started java process"
 }

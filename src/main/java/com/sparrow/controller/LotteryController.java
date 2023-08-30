@@ -3,6 +3,7 @@ package com.sparrow.controller;
 import com.sparrow.controller.vo.Award;
 import com.sparrow.controller.vo.LotteryResult;
 import com.sparrow.protocol.Result;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,6 +12,11 @@ import java.util.List;
 
 @RestController
 public class LotteryController {
+    @GetMapping("health")
+    public String health() {
+        return "ok";
+    }
+
     @PostMapping("awards")
     public Result<List<Award>> getAllAwards() {
         List<Award> awards = this.awardList();
