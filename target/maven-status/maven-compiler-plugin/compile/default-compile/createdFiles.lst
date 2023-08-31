@@ -1,0 +1,4 @@
+com/sparrow/boot/ApplicationBoot.class
+com/sparrow/controller/vo/Award.class
+com/sparrow/controller/vo/LotteryResult.class
+com/sparrow/controller/LotteryController.class

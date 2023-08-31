@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Canvas大转盘抽奖活动页面代码</title>
+    <script src="http://r.sparrowzoo.net/scripts/sparrow.js"></script>
+    <script src="js/turntable.js"></script>
+    <style>
+        .lottery {
+            position: relative;
+            display: inline-block;
+            text-align: center
+        }
+
+        .lottery img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -76px;
+            margin-top: -82px;
+            cursor: pointer;
+        }
+
+        #message {
+            position: absolute;
+            top: 0px;
+            left: 10%;
+        }
+    </style>
+    <!--[if lte IE 8]>
+    <style>
+        .lottery img {
+            display: none;
+        }
+    </style>
+    <![endif]-->
+
+</head>
+<body>
+<center>
+    <div class="lottery">
+        <canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
+            当前浏览器版本过低，请使用其他浏览器尝试
+        </canvas>
+        <p id="message"></p>
+        <img src="images/start.png" id="start">
+    </div>
+</center>
+<script>
+    var wheelSurf = null;
+    $.http.post('/awards', null, function (result) {
+        // 定义转盘奖品
+        wheelSurf = new WheelSurf({
+            canvas: "myCanvas",
+            list: result.data
+        });
+        // 初始化转盘
+        wheelSurf.init();
+    });
+
+    // 计算分配获奖概率(前提所有奖品概率相加100%)
+    async function getGift() {
+        return await $.http.syncPost('/lottery').then((data) => {
+            return data;
+        });
+    }
+
+    // 是否允许抽奖
+    var throttle = true;
+    document.getElementById("start").onclick = async function () {
+        var winData = await getGift();
+        $("#message").html('')
+        if (!throttle) {
+            return false;
+        }
+        throttle = false;
+        var degreePerSector = 360 / wheelSurf.config.list.length;
+        // 转盘抽奖
+        wheelSurf.lottery((winData.data.index * degreePerSector + degreePerSector / 2), function () {
+            $("#message").html(winData.data.award.name);
+            throttle = true;
+        })
+    };
+</script>
+</body>
+</html>

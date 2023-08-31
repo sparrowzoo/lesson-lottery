@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db073292-0fa3-4bad-b1c1-b27ceac97142" name="Changes" comment="add startup.sh">
+      <change afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/boot/ApplicationBoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/LotteryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/vo/Award.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/vo/LotteryResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/turntable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lesson-lottery-exe.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lesson-lottery.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/logs/start.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/startup.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TyjdGUCBT2K5lJX3jrbgkIwKn2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhanglizhi/workspace/sparrow/lesson-lottery/target&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6a76f7b5cb663616b8d5ff815f13e819&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sparrow.boot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationBoot">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparrow.test.Test" />
+      <module name="lesson-lottery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparrow.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lesson-lottery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparrow.boot.ApplicationBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparrow.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApplicationBoot" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db073292-0fa3-4bad-b1c1-b27ceac97142" name="Changes" comment="" />
+      <created>1692022300245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692022300245</updated>
+      <workItem from="1692022301999" duration="1134000" />
+      <workItem from="1692074838360" duration="6489000" />
+      <workItem from="1692093675987" duration="17758000" />
+      <workItem from="1692283694506" duration="8532000" />
+      <workItem from="1692323729226" duration="8196000" />
+      <workItem from="1692448540980" duration="10483000" />
+      <workItem from="1692887640730" duration="2857000" />
+      <workItem from="1692932991108" duration="2117000" />
+      <workItem from="1693061196030" duration="431000" />
+      <workItem from="1693061631343" duration="6181000" />
+      <workItem from="1693230253415" duration="11019000" />
+      <workItem from="1693360468719" duration="516000" />
+      <workItem from="1693360990614" duration="2625000" />
+      <workItem from="1693409703056" duration="985000" />
+      <workItem from="1693494846331" duration="5150000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1693362241324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693362241324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1693362258049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693362258049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add startup.sh">
+      <created>1693497660186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693497660186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add startup.sh">
+      <created>1693499365240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693499365240</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add startup.sh">
+      <created>1693499421118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693499421118</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modify ajax url">
+      <created>1693500083254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693500083254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add startup.sh" />
+    <MESSAGE value="modify ajax url" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify ajax url" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_HOME_DIR$/plugins/javascript-impl/jsLanguageServicesImpl/external/lib.dom.d.ts</url>
+          <line>3453</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
