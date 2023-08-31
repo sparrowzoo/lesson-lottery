@@ -51,8 +51,7 @@ start_application() {
     echo "started java process"
 }
 stop_application() {
-   checkjavapid=`ps -ef | grep java | grep ${APP_NAME} | grep -v grep |grep -v 'deploy.sh'| awk '{print$2}'`
-
+   checkjavapid=`ps -ef | grep java | grep ${APP_NAME} | grep -v grep |grep -v 'startup.sh'| awk '{print$2}'`
    if [[ ! $checkjavapid ]];then
       echo -e "\rno java process"
       return
