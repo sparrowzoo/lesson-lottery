@@ -51,7 +51,7 @@
 </center>
 <script>
     var wheelSurf = null;
-    $.http.post('http://localhost:8080/awards', null, function (result) {
+    $.http.post('/awards', null, function (result) {
         // 定义转盘奖品
         wheelSurf = new WheelSurf({
             canvas: "myCanvas",
@@ -63,7 +63,7 @@
 
     // 计算分配获奖概率(前提所有奖品概率相加100%)
     async function getGift() {
-        return await $.http.syncPost('http://localhost:8080/lottery').then((data) => {
+        return await $.http.syncPost('/lottery').then((data) => {
             return data;
         });
     }
