@@ -4,37 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db073292-0fa3-4bad-b1c1-b27ceac97142" name="Changes" comment="add startup.sh">
-      <change afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/boot/ApplicationBoot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/LotteryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/vo/Award.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/vo/LotteryResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/images/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/turntable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/lesson-lottery-exe.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/lesson-lottery.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/logs/start.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/startup.sh" afterDir="false" />
+    <list default="true" id="db073292-0fa3-4bad-b1c1-b27ceac97142" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparrow/controller/LotteryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparrow/controller/LotteryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sparrow/controller/LotteryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparrow/controller/LotteryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson-lottery-exe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson-lottery-exe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson-lottery.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson-lottery.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/start.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/startup.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +135,8 @@
       <workItem from="1693360468719" duration="516000" />
       <workItem from="1693360990614" duration="2625000" />
       <workItem from="1693409703056" duration="985000" />
-      <workItem from="1693494846331" duration="5150000" />
+      <workItem from="1693494846331" duration="5767000" />
+      <workItem from="1693743743803" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1693362241324</created>
@@ -200,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693500083254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add startup.sh">
+      <created>1693500718782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693500718782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +195,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="add startup.sh" />
     <MESSAGE value="modify ajax url" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify ajax url" />
+    <MESSAGE value="add startup.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="add startup.sh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

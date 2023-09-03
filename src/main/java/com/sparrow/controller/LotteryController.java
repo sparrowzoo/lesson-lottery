@@ -4,6 +4,7 @@ import com.sparrow.controller.vo.Award;
 import com.sparrow.controller.vo.LotteryResult;
 import com.sparrow.protocol.Result;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,6 +16,11 @@ public class LotteryController {
     @GetMapping("health")
     public String health() {
         return "ok";
+    }
+
+    @GetMapping("env/{env}")
+    public String env(@PathVariable("env") String env) {
+        return System.getenv(env);
     }
 
     @PostMapping("awards")
